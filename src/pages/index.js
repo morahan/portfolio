@@ -14,7 +14,7 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }}>
+        <div style={{ background: '#44ace8' }}>
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
@@ -30,6 +30,7 @@ class RootIndex extends React.Component {
             </ul>
           </div>
         </div>
+        {/* <Apps></Apps> */}
       </Layout>
     )
   }
